@@ -1,7 +1,7 @@
 @import "ui-variables";
 @import "ui-mixins";
 
-.editor.mini {
+atom-text-editor[mini] {
     color: @text-color;
     background-color: @input-background-color;
     border: 1px solid @input-border-color;
@@ -15,14 +15,14 @@
     }
 }
 
-.editor.editor-colors.mini.is-focused {
+atom-text-editor[mini].is-focused {
     background-color: #fff;
     .selection .region {
         background-color: @background-color-highlight;
     }
 }
 
-.editor {
+atom-text-editor::shadow {
     .gutter {
         background-color: @base-background-color;
 
@@ -60,7 +60,7 @@
     to { background-color: null; }
 }
 
-.editor .highlighted.selection .region {
+atom-text-editor::shadow .highlighted.selection .region {
     -webkit-animation-name: highlight;
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;

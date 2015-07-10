@@ -1,8 +1,8 @@
 # Shiny UI Theme
 
-Updated for Yosemite!
+Updated for Atom 1.0!
 
-Shiny UI is a bright, fresh theme. All elements are slightly flattened, lightened, embiggened and Helvetica-ized, it looks right at home on Yosemite.
+Shiny UI is a bright, fresh theme. All elements are slightly flattened, lightened, embiggened and Helvetica-ized.
 
 ![Shiny UI](http://adrianlogue.github.io/images/shiny-ui-v0.32.0.png "Shiny UI")
 

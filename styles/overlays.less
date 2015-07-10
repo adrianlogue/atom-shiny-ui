@@ -1,9 +1,9 @@
 @import "ui-variables";
 
-.overlay:not(.select-list) {
+atom-panel.modal:not(.select-list) {
     padding: @component-padding;
 
-    .editor.mini {
+    atom-text-editor[mini] {
         margin: @component-padding 0px;
     }
 
@@ -12,7 +12,7 @@
     }
 }
 
-.overlay {
+atom-panel.modal {
     color: @text-color;
     background-color: @overlay-background-color;
     padding: 0px;
@@ -20,7 +20,7 @@
     box-shadow: 0 5px 40px darken(@base-border-color, 20%);
     border-radius: @component-border-radius;
 
-    .editor.mini {
+    atom-text-editor[mini] {
         margin: @component-padding;
         padding: @component-padding/2;
         height: @component-line-height + @component-padding;

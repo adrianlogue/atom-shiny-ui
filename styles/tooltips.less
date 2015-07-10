@@ -1,0 +1,57 @@
+@import "ui-variables";
+
+.tooltip {
+    white-space: nowrap;
+
+    .keystroke {
+        color: lighten(@text-color-tooltip, 20%);
+        padding-left: 6px;
+        margin-left: 5px;
+        border-left: 1px solid lighten(@text-color-tooltip, 40%);
+    }
+
+    &.in {
+        opacity: 1;
+    }
+
+    .tooltip-inner {
+        line-height: 19px;
+        border-radius: @component-border-radius;
+        background-color: @background-color-tooltip;
+        color: @text-color-tooltip;
+        white-space: nowrap;
+        max-width: none;
+    }
+
+    &.top .tooltip-arrow {
+        border-top-color: @background-color-tooltip;
+    }
+
+    &.top-left .tooltip-arrow {
+        border-top-color: @background-color-tooltip;
+    }
+
+    &.top-right .tooltip-arrow {
+        border-top-color: @background-color-tooltip;
+    }
+
+    &.right .tooltip-arrow {
+        border-right-color: @background-color-tooltip;
+    }
+
+    &.left .tooltip-arrow {
+        border-left-color: @background-color-tooltip;
+    }
+
+    &.bottom .tooltip-arrow {
+        border-bottom-color: @background-color-tooltip;
+    }
+
+    &.bottom-left .tooltip-arrow {
+        border-bottom-color: @background-color-tooltip;
+    }
+
+    &.bottom-right .tooltip-arrow {
+        border-bottom-color: @background-color-tooltip;
+    }
+}

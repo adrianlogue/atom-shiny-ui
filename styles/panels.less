@@ -2,14 +2,14 @@
 @import "ui-variables";
 @import "buttons";
 
-.panel {
+atom-panel {
     &.bordered {
         border: 1px solid @base-border-color;
         border-radius: @component-border-radius;
     }
 }
 
-.tool-panel {
+atom-panel {
     .text(normal);
     color: lighten(@text-color, 10%);
     font-size: @font-size;
@@ -22,11 +22,11 @@
 
     background-color: @tool-panel-background-color;
 
-    &.panel-bottom {
+    &.bottom {
         border-top: 1px solid @tool-panel-border-color;
     }
 
-    &.panel-left {
+    &.left {
         border-right: 1px solid @tool-panel-border-color;
     }
 

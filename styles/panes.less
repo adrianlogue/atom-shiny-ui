@@ -2,8 +2,8 @@
 @import "ui-variables";
 @import "buttons";
 
-.panes {
-    .pane {
+.atom-pane-container {
+    .atom-pane {
         background-color: @app-background-color;
 
         &:focus {
@@ -11,7 +11,7 @@
         }
     }
 
-    .pane-row > * {
+    .atom-pane-axis.horizontal > * {
         border-right: 1px solid @pane-item-border-color;
 
         &:last-child {
@@ -19,7 +19,7 @@
         }
     }
 
-    .pane-column > * {
+    .atom-pane-axis.vertical > * {
         border-bottom: 1px solid @pane-item-border-color;
 
         &:last-child {
