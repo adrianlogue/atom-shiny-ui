@@ -22,7 +22,7 @@ atom-text-editor[mini].is-focused {
     }
 }
 
-atom-text-editor::shadow {
+atom-text-editor.editor {
     .gutter {
         background-color: @base-background-color;
 
@@ -60,7 +60,7 @@ atom-text-editor::shadow {
     to { background-color: null; }
 }
 
-atom-text-editor::shadow .highlighted.selection .region {
+atom-text-editor.editor .highlighted.selection .region {
     -webkit-animation-name: highlight;
     -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;
