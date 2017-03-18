@@ -1,52 +1,49 @@
 // Colors
 
-@text-color: #666;
-@text-color-subtle: #888;
-@text-color-highlight: #666;
-@text-color-selected: #fff;
+@text-color: 			#666666;
+@text-color-subtle: 	#888888;
+@text-color-highlight: 	#666666;
+@text-color-selected: 	#FFFFFF;
 
-@text-color-info: #695000; // brown
-@text-color-success: #32bf32; // green
-@text-color-warning: #ff9a27; // orange
-@text-color-error: #EE521A; // red
-@text-color-tooltip: #6A5E38;
+@text-color-info: 		#695000;
+@text-color-success: 	#32BF32;
+@text-color-warning: 	#FF9A27;
+@text-color-error: 		#EE521A;
+@text-color-tooltip: 	#6A5E38;
 
-@text-color-ignored: #bbb;
-@text-color-added: @text-color-success;
-@text-color-renamed: @text-color-warning;
-@text-color-modified: #5CB8E6; //#CD8B4F; // brown
-@text-color-removed: @text-color-error;
+@text-color-ignored: 	#BBBBBB;
+@text-color-added: 		@text-color-success;
+@text-color-renamed: 	@text-color-warning;
+@text-color-modified:	#5CB8E6;
+@text-color-removed: 	@text-color-error;
 
-@background-color-info: #FFCA27; // yellow
-@background-color-success: @text-color-success;
-@background-color-warning: @text-color-warning;
-@background-color-error: @text-color-error;
-@background-color-highlight: #ddd;
-@background-color-selected: #51B9DB; // blue
-@background-color-tooltip: #FFF9EA;
+@background-color-info: 		#FFCA27;
+@background-color-success: 		@text-color-success;
+@background-color-warning: 		@text-color-warning;
+@background-color-error: 		@text-color-error;
+@background-color-highlight:	#DDDDDD;
+@background-color-selected: 	#51B9DB;
+@background-color-tooltip: 		#FFF9EA;
 
-@app-background-color: #fff;
+@app-background-color: 			#FFFFFF;
+@base-background-color: 		@app-background-color;
+@base-border-color: 			#DDDDDD;
+@pane-item-background-color:	@app-background-color;
+@pane-item-border-color: 		@base-border-color;
+@input-background-color: 		@app-background-color;
+@input-border-color: 			@base-border-color;
 
-@base-background-color: #fff;
-@base-border-color: #ddd;
+@tool-panel-background-color: 	#fafafa;
+@tool-panel-border-color: 		@base-border-color;
 
-@pane-item-background-color: @base-background-color;
-@pane-item-border-color: @base-border-color;
+@inset-panel-background-color: 	@base-background-color;
+@inset-panel-border-color: 		@base-border-color;
 
-@input-background-color: #fff;
-@input-border-color: @base-border-color;
+@panel-heading-background-color: 	#DDDDDD;
+@panel-heading-border-color: 		transparent;
 
-@tool-panel-background-color: #fafafa;
-@tool-panel-border-color: @base-border-color;
-
-@inset-panel-background-color: @base-background-color;
-@inset-panel-border-color: @base-border-color;
-
-@panel-heading-background-color: #ddd;
-@panel-heading-border-color: transparent;
-
-@overlay-background-color: #ececec;
-@overlay-border-color: @base-border-color;
+@overlay-background-color: 	#ECECEC;
+@overlay-border-color: 		@base-border-color;
 
 @button-background-color: @base-background-color;
 @button-background-color-hover: lighten(@button-background-color, 5%);
@@ -62,15 +59,13 @@
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color: @base-border-color;
 
-@ui-site-color-1: @background-color-success; // green
-@ui-site-color-2: @background-color-info; // blue
-@ui-site-color-3: @background-color-warning; // orange
+@ui-site-color-1: @background-color-success;
+@ui-site-color-2: @background-color-info;
+@ui-site-color-3: @background-color-warning;
 @ui-site-color-4: #db2ff4; // purple
 @ui-site-color-5: #f5e11d; // yellow
 
-
 // Sizes
-
 @font-size: 13px;
 @disclosure-arrow-size: 12px;
 
@@ -82,7 +77,5 @@
 
 @tab-height: 31px;
 
-
 // Other
-
 @font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
